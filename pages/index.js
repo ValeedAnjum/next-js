@@ -6,7 +6,6 @@ import Navbar from "../comps/Navbar";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>HomePage</h1>
       <p>
         Nulla anim est laboris reprehenderit culpa. Dolor elit fugiat do do anim
@@ -16,7 +15,6 @@ export default function Home() {
         nostrud consectetur minim. Veniam et ullamco dolore veniam Lorem ullamco
         elit tempor. Incididunt ullamco ad quis eu.
       </p>
-      <Footer />
     </div>
   );
 }
