@@ -1,5 +1,11 @@
+import Head from 'next/head'
 const About = () => {
   return (
+    <>
+      <Head>
+        <title>Ninja List | About</title>
+        <meta name="keyword" content="Ninja" />
+      </Head>
     <div>
       <h1>About</h1>
       <p>
@@ -9,7 +15,8 @@ const About = () => {
         fugiat.
       </p>
     </div>
-  );
-};
-
+    </>
+   );
+}
+ 
 export default About;
